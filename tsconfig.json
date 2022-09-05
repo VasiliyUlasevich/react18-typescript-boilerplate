@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "preserve",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": true,
+  },
+  "exclude": ["node_modules", "**/*.test.tsx" , "**/*.test.ts"]
+}
